@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "advent-of-code-2024"
+version = "0.1.0"
+description = ""
+authors = ["Ryan Lau <ryanlau394@gmail.com>"]
+readme = "README.md"
+packages = [{include = "advent_of_code_2024"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.10.0"
+ffmpeg-python = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
